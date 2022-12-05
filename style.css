@@ -5,6 +5,22 @@
 .navbar {
     border: solid;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.welcome p {
+    margin: 10px;
+}
+
+.account {
+    text-align: center;
 }
 
 .content {
@@ -17,47 +33,54 @@
 .left {
     border: purple solid;
     width: 20%;
-    text-align: center;
-}
-
-.left h3 {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .side-item {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0 0 0;
+    align-items: center;
+  
+    margin: 5px;
+}
+.side-item p{
+    margin-left: 20px;
 }
 
 .icon {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     border-radius: 5px;
 }
 
 .center {
     border: solid;
-    width: 60%;
+    width: 65%;
 }
 
 .content-item {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0 0 0;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content-item p {
+    margin: 10px;
 }
 
 .right {
     border: pink solid;
-    width: 20%;
+    width: 15%;
+    text-align: center;
 }
 
-.flask {
+.big-icon {
     font-size: 50px !important;
 }
 
-.globe {
-    font-size: 50px !important;
+.side-icon {
+    margin: 20px;
 }

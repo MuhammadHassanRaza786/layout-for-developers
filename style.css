@@ -7,6 +7,8 @@ body {
     height: 100vh;
 }
 
+/* navbar */
+
 .navbar {
     padding: 10px;
     display: flex;
@@ -36,10 +38,13 @@ body {
     text-align: center;
 }
 
+/* main content */
+
 .content {
     display: flex;
-    justify-content: space-around;
 }
+
+/* left section */
 
 .left {
     width: 20%;
@@ -65,6 +70,8 @@ body {
     border-radius: 5px;
 }
 
+/* center section */
+
 .center {
     width: 65%;
 }
@@ -86,6 +93,8 @@ body {
     border-radius: 10px;
 }
 
+
+/* right section */
 .right {
     width: 15%;
     text-align: center;

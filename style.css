@@ -1,0 +1,10 @@
+.navbar {
+    border: solid;
+    padding: 10px;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+}

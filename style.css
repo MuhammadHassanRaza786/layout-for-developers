@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
 }
 
@@ -7,24 +7,53 @@ body {
     padding: 10px;
 }
 
-.Content {
+.content {
     display: flex;
     justify-content: space-around;
     border: green solid;
     height: 100vh;
 }
 
-.Left {
+.left {
     border: purple solid;
     width: 20%;
+    text-align: center;
 }
 
-.Center {
+.left h3 {
+    padding: 10px;
+}
+
+.side-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0 0 0;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.center {
     border: solid;
     width: 60%;
 }
 
-.Right {
+.content-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0 0 0;
+}
+
+.right {
     border: pink solid;
     width: 20%;
+}
+
+.flask {
+    font-size: 50px !important;
 }

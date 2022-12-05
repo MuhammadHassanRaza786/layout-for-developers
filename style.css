@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .navbar {
     border: solid;
     padding: 10px;
@@ -6,5 +10,21 @@
 .Content {
     display: flex;
     justify-content: space-around;
+    border: green solid;
+    height: 100vh;
+}
+
+.Left {
+    border: purple solid;
+    width: 20%;
+}
+
+.Center {
     border: solid;
+    width: 60%;
+}
+
+.Right {
+    border: pink solid;
+    width: 20%;
 }
